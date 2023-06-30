@@ -2,6 +2,7 @@
   --accent-color: #2e2f42;
   --paragraph-color: #434455;
   --background-color: #2e2f42;
+  --logo-color: #4d5ae5;
 }
 
 body {
@@ -23,15 +24,15 @@ body {
 .header-logo {
   color: #2e2f42;
   font-size: 18px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .header-logo-accent {
-  color: #4d5ae5;
+  color: var(--logo-color);
 }
 
 .header-menu-link {
@@ -180,15 +181,15 @@ body {
 .footer-logo {
   color: #f4f4fd;
   font-size: 18px;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .footer-logo-accent {
-  color: #4d5ae5;
+  color: var(--logo-color);
 }
 
 .footer-text {
