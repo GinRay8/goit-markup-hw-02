@@ -22,7 +22,7 @@ body {
 .header-logo {
   color: #2e2f42;
   font-size: 18px;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-weight: 800;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -54,7 +54,7 @@ body {
 .header-adress-item {
 }
 .header-adress-link {
-  color: #434455;
+  color: var(--paragraph-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -70,7 +70,7 @@ body {
 
 .hero-title {
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -78,7 +78,7 @@ body {
 }
 
 .hero-btn {
-  color: #fff;
+  color: #ffffff;
   font-size: 16px;
   font-family: inherit;
   font-weight: 500;
@@ -150,7 +150,7 @@ body {
 .list {
 }
 .team-item {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .team-subtitle {
@@ -202,7 +202,7 @@ body {
 /* PROJECT */
 
 .projekt {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .project-btn {
@@ -216,12 +216,12 @@ body {
 
 .project-btn:hover,
 .project-btn:focus {
-  color: #fff;
+  color: #ffffff;
   background-color: #404bbf;
 }
 
 .second-list-item {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .projekt-subtitle {
@@ -234,7 +234,7 @@ body {
 }
 
 .projekt-link-text {
-  color: #434455;
+  color: var(--paragraph-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
